@@ -33,7 +33,7 @@ def main():
     print("Initializing clients...")
     client = MilvusClient(str(db_path))
     embedding_fn = GoogleGenerativeAIEmbeddings(model="models/text-embedding-004", google_api_key=google_api_key)
-    llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", google_api_key=google_api_key, temperature=0.7)
+    llm = ChatGoogleGenerativeAI(model="gemini-2.0-flash", google_api_key=google_api_key, temperature=0.7)
 
     # --- 4. Build Core App Components ---
     print("Creating agents and compiling graph...")
