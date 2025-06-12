@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual Environments
+venv/
+env/
+.venv/
+.env
+
+# IDE / Editor
+.idea/
+.vscode/
+
+# Application Data & Logs
+data/vector_stores/
+logs/
+
+# Notebook checkpoints
+.ipynb_checkpoints
+
+# OS-specific
+.DS_Store
+Thumbs.db
