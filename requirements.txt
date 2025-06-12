@@ -1,7 +1,7 @@
 # requirements.txt
 
 
-python-3.12.3
+
 
 # --- Core Application & LangChain Ecosystem ---
 # Pinned to the EXACT versions from your original working environment to guarantee stability.
@@ -15,7 +15,11 @@ google-genai==1.19.0
 # --- Vector Database ---
 pymilvus==2.4.12
 
+<<<<<<< HEAD
 milvus-lite==2.4.12
+=======
+milvus-lite==2.5.13  
+>>>>>>> 10d41a9 (add data base)
 
 # --- Data Handling & Utilities ---
 pandas==2.3.0

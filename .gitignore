@@ -15,7 +15,7 @@ env/
 .vscode/
 
 # Application Data & Logs
-data/vector_stores/
+# data/vector_stores/
 logs/
 
 # Notebook checkpoints
