@@ -1,94 +1,3 @@
-# # app_ui_minimal.py
-
-
-# import os
-# import sys
-# from pathlib import Path
-
-# import streamlit as st
-# from dotenv import load_dotenv
-
-
-
-# from pymilvus import MilvusClient
-# from langchain_google_genai import ChatGoogleGenerativeAI, GoogleGenerativeAIEmbeddings
-
-# # --- bring in your app modules ---
-# sys.path.append(str(Path(__file__).resolve().parent / "src"))
-# from src.side_character_app.app.state import initialize_state, ARCHETYPES
-# from src.side_character_app.app.agents import create_all_agents
-# from src.side_character_app.app.graph import create_graph
-
-# # --- 1. load backend once ---
-# @st.cache_resource
-# def get_app():
-#     load_dotenv()
-#     key = os.getenv("GEMINI_API_KEY")
-#     if not key:
-#         st.error("Please set GEMINI_API_KEY in your .env")
-#         st.stop()
-
-#     root = Path(__file__).resolve().parent
-#     db_path = root / "data" / "vector_stores" / "milvus_side_characters.db"
-#     client = MilvusClient(str(db_path))
-
-#     embeddings = GoogleGenerativeAIEmbeddings(
-#         model="models/text-embedding-004",
-#         google_api_key=key
-#     )
-#     llm = ChatGoogleGenerativeAI(
-#         model="gemini-2.0-flash",
-#         google_api_key=key,
-#         temperature=0.7
-#     )
-
-#     agents = create_all_agents(llm, client, embeddings)
-#     return create_graph(llm, agents)
-
-# app = get_app()
-
-# # --- 2. init session state ---
-# if "graph_state" not in st.session_state:
-#     st.session_state.graph_state = initialize_state()
-
-# # --- 3. UI ---
-# st.title("🤖 Side Character AI")
-
-# MODE_OPTIONS = ["Auto Mode"] + ARCHETYPES
-
-# with st.form("chat_form", clear_on_submit=True):
-#     user_query = st.text_input("Your message")
-#     mode = st.selectbox("Send to:", options=MODE_OPTIONS)
-#     submitted = st.form_submit_button("Send")
-    
-# if submitted and user_query:
-#     # prepare input
-#     user_choice = "" if mode == "Auto Mode" else mode
-#     payload = {
-#         **st.session_state.graph_state,
-#         "input": user_query,
-#         "user_choice": user_choice
-#     }
-#     # call your graph
-#     new_state = app.invoke(payload, config={"configurable": {"thread_id": "streamlit"}})
-#     st.session_state.graph_state = new_state
-
-# # --- 4. display last response ---
-# state = st.session_state.graph_state
-# last_agent = state.get("next")
-# if last_agent and last_agent != "END":
-#     # grab the final message from that agent
-#     reply = state["private_conversations"][last_agent][-1].content
-#     st.markdown(f"**{last_agent} says:**  \n{reply}")
-# elif state["main_conversation"]:
-#     # fallback to public thread
-#     st.markdown(f"**System:**  \n{state['main_conversation'][-1].content}")
-
-
-
-
-
-
 
 
 
@@ -138,7 +47,15 @@ def get_app():
 
     root = Path(__file__).resolve().parent
     db_path = root / "data" / "vector_stores" / "milvus_side_characters.db"
-    client = MilvusClient(str(db_path))
+    
+    try:
+        client = MilvusClient(str(db_path))          # or remote config
+    except Exception as e:
+        st.error(f"❌ Milvus initialisation failed: {e}")
+        st.stop()
+
+
+    # client = MilvusClient(str(db_path))
 
     embeddings = GoogleGenerativeAIEmbeddings(
         model="models/text-embedding-004",
