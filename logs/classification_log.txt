@@ -1,0 +1,154 @@
+2025-06-12 00:56:18,000 - INFO - ----- Started new classification session -----
+2025-06-12 00:56:18,032 - INFO - AFC is enabled with max remote calls: 10.
+2025-06-12 00:56:19,222 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-06-12 00:56:19,224 - INFO - AFC remote call 1 is done.
+2025-06-12 00:56:19,225 - INFO - SUCCESS: ('FRANK', 'american outlaws') -> Wise Mentor (Confidence: 9)
+2025-06-12 00:56:19,225 - INFO - AFC is enabled with max remote calls: 10.
+2025-06-12 00:56:20,283 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-06-12 00:56:20,286 - INFO - AFC remote call 1 is done.
+2025-06-12 00:56:20,287 - INFO - SUCCESS: ('PINKERTON', 'american outlaws') -> Skeptical Realist (Confidence: 8)
+2025-06-12 00:56:20,287 - INFO - AFC is enabled with max remote calls: 10.
+2025-06-12 00:56:21,240 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-06-12 00:56:21,242 - INFO - AFC remote call 1 is done.
+2025-06-12 00:56:21,242 - INFO - SUCCESS: ('EVELYN', 'american psycho') -> Comedic Relief (Confidence: 7)
+2025-06-12 00:56:21,243 - INFO - AFC is enabled with max remote calls: 10.
+2025-06-12 00:56:22,846 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-06-12 00:56:22,851 - INFO - AFC remote call 1 is done.
+2025-06-12 00:56:22,851 - INFO - SUCCESS: ('JEAN', 'american psycho') -> Loyal Sidekick (Confidence: 9)
+2025-06-12 00:56:22,852 - INFO - AFC is enabled with max remote calls: 10.
+2025-06-12 00:56:23,851 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-06-12 00:56:23,853 - INFO - AFC remote call 1 is done.
+2025-06-12 00:56:23,854 - INFO - SUCCESS: ('ELIZABETH', 'american psycho') -> Skeptical Realist (Confidence: 8)
+2025-06-12 00:56:23,855 - INFO - AFC is enabled with max remote calls: 10.
+2025-06-12 00:56:25,270 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-06-12 00:56:25,273 - INFO - AFC remote call 1 is done.
+2025-06-12 00:56:25,273 - INFO - SUCCESS: ('KIMBALL', 'american psycho') -> Skeptical Realist (Confidence: 9)
+2025-06-12 00:56:25,274 - INFO - AFC is enabled with max remote calls: 10.
+2025-06-12 00:56:26,324 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-06-12 00:56:26,326 - INFO - AFC remote call 1 is done.
+2025-06-12 00:56:26,326 - INFO - SUCCESS: ('GARY', 'antitrust') -> Wise Mentor (Confidence: 9)
+2025-06-12 00:56:26,327 - INFO - AFC is enabled with max remote calls: 10.
+2025-06-12 00:56:27,348 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-06-12 00:56:27,349 - INFO - AFC remote call 1 is done.
+2025-06-12 00:56:27,349 - INFO - SUCCESS: ('ALOTTA', 'austin powers: international man of mystery') -> Comedic Relief (Confidence: 8)
+2025-06-12 00:56:27,349 - INFO - AFC is enabled with max remote calls: 10.
+2025-06-12 00:56:28,372 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-06-12 00:56:28,373 - INFO - AFC remote call 1 is done.
+2025-06-12 00:56:28,373 - INFO - SUCCESS: ('SCOTT EVIL', 'austin powers: international man of mystery') -> Comedic Relief (Confidence: 8)
+2025-06-12 00:56:28,373 - INFO - AFC is enabled with max remote calls: 10.
+2025-06-12 00:56:29,397 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-06-12 00:56:29,398 - INFO - AFC remote call 1 is done.
+2025-06-12 00:56:29,399 - INFO - SUCCESS: ('MOTHER', 'the avengers') -> Skeptical Realist (Confidence: 9)
+2025-06-12 00:56:29,399 - INFO - AFC is enabled with max remote calls: 10.
+2025-06-12 00:56:30,523 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-06-12 00:56:30,525 - INFO - AFC remote call 1 is done.
+2025-06-12 00:56:30,526 - INFO - SUCCESS: ('INVISIBLE JONES', 'the avengers') -> Wise Mentor (Confidence: 9)
+2025-06-12 00:56:30,527 - INFO - AFC is enabled with max remote calls: 10.
+2025-06-12 00:56:31,648 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-06-12 00:56:31,956 - INFO - AFC remote call 1 is done.
+2025-06-12 00:56:31,957 - INFO - SUCCESS: ('COLE', 'bachelor party') -> Comedic Relief (Confidence: 9)
+2025-06-12 00:56:31,958 - INFO - AFC is enabled with max remote calls: 10.
+2025-06-12 00:56:33,082 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-06-12 00:56:33,088 - INFO - AFC remote call 1 is done.
+2025-06-12 00:56:33,089 - INFO - SUCCESS: ('JENNIFER', 'backdraft') -> Skeptical Realist (Confidence: 8)
+2025-06-12 00:56:33,090 - INFO - AFC is enabled with max remote calls: 10.
+2025-06-12 00:56:34,106 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-06-12 00:56:34,109 - INFO - AFC remote call 1 is done.
+2025-06-12 00:56:34,110 - INFO - SUCCESS: ('HELEN', 'backdraft') -> Skeptical Realist (Confidence: 8)
+2025-06-12 00:56:34,111 - INFO - AFC is enabled with max remote calls: 10.
+2025-06-12 00:56:35,438 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-06-12 00:56:35,442 - INFO - AFC remote call 1 is done.
+2025-06-12 00:56:35,442 - INFO - SUCCESS: ('DUNWITTY', 'bamboozled') -> Skeptical Realist (Confidence: 8)
+2025-06-12 00:56:35,443 - INFO - AFC is enabled with max remote calls: 10.
+2025-06-12 00:56:36,391 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-06-12 00:56:36,392 - INFO - AFC remote call 1 is done.
+2025-06-12 00:56:36,393 - INFO - SUCCESS: ('JUNEBUG', 'bamboozled') -> Comedic Relief (Confidence: 8)
+2025-06-12 00:56:36,397 - INFO - AFC is enabled with max remote calls: 10.
+2025-06-12 00:56:37,689 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-06-12 00:56:37,692 - INFO - AFC remote call 1 is done.
+2025-06-12 00:56:37,693 - INFO - SUCCESS: ('DUNBAR', 'basic') -> Skeptical Realist (Confidence: 8)
+2025-06-12 00:56:37,694 - INFO - AFC is enabled with max remote calls: 10.
+2025-06-12 00:56:38,919 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-06-12 00:56:38,922 - INFO - AFC remote call 1 is done.
+2025-06-12 00:56:38,924 - INFO - SUCCESS: ('KENDALL', 'basic') -> Skeptical Realist (Confidence: 8)
+2025-06-12 00:56:38,924 - INFO - AFC is enabled with max remote calls: 10.
+2025-06-12 00:56:39,883 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-06-12 00:56:39,885 - INFO - AFC remote call 1 is done.
+2025-06-12 00:56:39,885 - INFO - SUCCESS: ('STYLES', 'basic') -> Skeptical Realist (Confidence: 9)
+2025-06-12 00:56:39,885 - INFO - AFC is enabled with max remote calls: 10.
+2025-06-12 00:56:40,901 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-06-12 00:56:40,902 - INFO - AFC remote call 1 is done.
+2025-06-12 00:56:40,902 - INFO - SUCCESS: ('JENNY', 'big fish') -> Wise Mentor (Confidence: 8)
+2025-06-12 00:56:40,903 - INFO - AFC is enabled with max remote calls: 10.
+2025-06-12 00:56:41,883 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-06-12 00:56:41,886 - INFO - AFC remote call 1 is done.
+2025-06-12 00:56:41,887 - INFO - SUCCESS: ('JOSEPHINE', 'big fish') -> Loyal Sidekick (Confidence: 9)
+2025-06-12 00:56:41,890 - INFO - AFC is enabled with max remote calls: 10.
+2025-06-12 00:56:42,941 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-06-12 00:56:42,955 - INFO - AFC remote call 1 is done.
+2025-06-12 00:56:42,956 - INFO - SUCCESS: ('SANDRA', 'big fish') -> Wise Mentor (Confidence: 9)
+2025-06-12 00:56:42,956 - INFO - AFC is enabled with max remote calls: 10.
+2025-06-12 00:56:43,967 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-06-12 00:56:43,970 - INFO - AFC remote call 1 is done.
+2025-06-12 00:56:43,970 - INFO - SUCCESS: ('YURI', 'birthday girl') -> Comedic Relief (Confidence: 9)
+2025-06-12 00:56:43,971 - INFO - AFC is enabled with max remote calls: 10.
+2025-06-12 00:56:45,183 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-06-12 00:56:45,186 - INFO - AFC remote call 1 is done.
+2025-06-12 00:56:45,187 - INFO - SUCCESS: ('ANGELA', 'black snake moan') -> Wise Mentor (Confidence: 9)
+2025-06-12 00:56:45,188 - INFO - AFC is enabled with max remote calls: 10.
+2025-06-12 00:56:46,015 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-06-12 00:56:46,018 - INFO - AFC remote call 1 is done.
+2025-06-12 00:56:46,018 - INFO - SUCCESS: ('GILL', 'black snake moan') -> Skeptical Realist (Confidence: 9)
+2025-06-12 00:56:46,019 - INFO - AFC is enabled with max remote calls: 10.
+2025-06-12 00:56:47,168 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-06-12 00:56:47,170 - INFO - AFC remote call 1 is done.
+2025-06-12 00:56:47,170 - INFO - SUCCESS: ('ROSE', 'black snake moan') -> Skeptical Realist (Confidence: 8)
+2025-06-12 00:56:47,171 - INFO - AFC is enabled with max remote calls: 10.
+2025-06-12 00:56:48,134 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-06-12 00:56:48,137 - INFO - AFC remote call 1 is done.
+2025-06-12 00:56:48,138 - INFO - SUCCESS: ('TEHRONNE', 'black snake moan') -> Skeptical Realist (Confidence: 8)
+2025-06-12 00:56:48,139 - INFO - AFC is enabled with max remote calls: 10.
+2025-06-12 00:56:49,263 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-06-12 00:56:49,265 - INFO - AFC remote call 1 is done.
+2025-06-12 00:56:49,265 - INFO - SUCCESS: ('JOYCE', 'black rain') -> Skeptical Realist (Confidence: 9)
+2025-06-12 00:56:49,266 - INFO - AFC is enabled with max remote calls: 10.
+2025-06-12 00:56:50,130 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-06-12 00:56:50,132 - INFO - AFC remote call 1 is done.
+2025-06-12 00:56:50,132 - INFO - SUCCESS: ('OHASHI', 'black rain') -> Skeptical Realist (Confidence: 9)
+2025-06-12 00:56:50,133 - INFO - AFC is enabled with max remote calls: 10.
+2025-06-12 00:56:51,219 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-06-12 00:56:51,226 - INFO - AFC remote call 1 is done.
+2025-06-12 00:56:51,227 - INFO - SUCCESS: ('SEBASTIAN', 'blade runner') -> Loyal Sidekick (Confidence: 8)
+2025-06-12 00:56:51,227 - INFO - AFC is enabled with max remote calls: 10.
+2025-06-12 00:56:52,237 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-06-12 00:56:52,240 - INFO - AFC remote call 1 is done.
+2025-06-12 00:56:52,240 - INFO - SUCCESS: ('PRIS', 'blade runner') -> Loyal Sidekick (Confidence: 8)
+2025-06-12 00:56:52,241 - INFO - AFC is enabled with max remote calls: 10.
+2025-06-12 00:56:53,695 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-06-12 00:56:53,696 - INFO - AFC remote call 1 is done.
+2025-06-12 00:56:53,697 - INFO - SUCCESS: ('TROY', 'blast from the past') -> Comedic Relief (Confidence: 8)
+2025-06-12 00:56:53,697 - INFO - AFC is enabled with max remote calls: 10.
+2025-06-12 00:56:55,098 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-06-12 00:56:55,101 - INFO - AFC remote call 1 is done.
+2025-06-12 00:56:55,102 - INFO - SUCCESS: ('DETECTIVE WILLIAMS', 'blue velvet') -> Wise Mentor (Confidence: 8)
+2025-06-12 00:56:55,103 - INFO - AFC is enabled with max remote calls: 10.
+2025-06-12 00:56:55,507 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+2025-06-12 00:56:55,508 - WARNING - RATE LIMIT HIT for ('SANDY', 'blue velvet'). Retries left: 4. Waiting for 60s.
+2025-06-12 03:56:56,293 - INFO - ----- Started new classification session -----
+2025-06-12 03:56:56,468 - INFO - AFC is enabled with max remote calls: 10.
+2025-06-12 03:56:59,598 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-06-12 03:56:59,600 - INFO - AFC remote call 1 is done.
+2025-06-12 03:56:59,601 - INFO - SUCCESS: ('BIANCA', '10 things i hate about you') -> Comedic Relief (Confidence: 8)
+2025-06-12 03:56:59,602 - INFO - AFC is enabled with max remote calls: 10.
+2025-06-12 03:57:00,934 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-06-12 03:57:00,938 - INFO - AFC remote call 1 is done.
+2025-06-12 03:57:00,939 - INFO - SUCCESS: ('MICHAEL', '10 things i hate about you') -> Loyal Sidekick (Confidence: 9)
+2025-06-12 03:57:00,940 - INFO - AFC is enabled with max remote calls: 10.
+2025-06-12 03:57:01,800 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-06-12 03:57:01,803 - INFO - AFC remote call 1 is done.
+2025-06-12 03:57:01,804 - INFO - SUCCESS: ('JOEY', '10 things i hate about you') -> Comedic Relief (Confidence: 8)
+2025-06-12 03:57:01,804 - INFO - AFC is enabled with max remote calls: 10.
+2025-06-12 03:57:03,223 - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+2025-06-12 03:57:03,225 - INFO - AFC remote call 1 is done.
+2025-06-12 03:57:03,225 - INFO - SUCCESS: ('MANDELLA', '10 things i hate about you') -> Loyal Sidekick (Confidence: 9)
+2025-06-12 03:57:03,226 - INFO - AFC is enabled with max remote calls: 10.
